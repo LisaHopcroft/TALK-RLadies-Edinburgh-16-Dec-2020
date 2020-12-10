@@ -1,0 +1,46 @@
+% \usepackage{background}
+% 
+% \backgroundsetup{
+% scale=1,
+% color=black,
+% opacity=0.4,
+% angle=0,
+% pages=all,
+% contents={%
+%   \includegraphics[width=\paperwidth,height=\paperheight]{fig/PHS small.jpg}
+%   }%
+% }
+
+\usebackgroundtemplate%
+{%
+    \includegraphics[width=\paperwidth,height=\paperheight]{fig/PHSsmall.jpg}%
+}
+
+\definecolor{PHSpurple}{RGB}{155, 66, 146}
+
+\definecolor{PHSgreen}{RGB}{130, 187, 37} %#"#82BB25",
+\definecolor{PHSblue}{RGB}{29, 153, 214} %"#1D99D6",
+\definecolor{PHSlight_purple}{RGB}{155, 67, 147} %"#9B4393",
+\definecolor{PHSdark_purple}{RGB}{67, 54, 133} %"#433685",
+\definecolor{PHSbright_pink}{RGB}{192, 39, 185} %"#C027B9" 
+
+
+\setbeamercolor{frametitle}{fg=PHSlight_purple,bg=white}
+\setbeamercolor{title}{fg=PHSlight_purple,bg=white}
+
+\setbeamercolor{itemize item}{fg=PHSgreen}
+\setbeamercolor{itemize subitem}{fg=PHSgreen}
+% \setbeamertemplate{itemize items}[circle]
+% \setbeamertemplate{itemize subitems}[triangle]
+
+\setbeamertemplate{itemize item}{\usebeamerfont*{itemize item}\raise1.25pt\hbox{\donotcoloroutermaths$\bullet$}}
+\setbeamertemplate{itemize subitem}[triangle]
+
+\setbeamercolor{enumerate item}{fg=PHSgreen}
+\setbeamercolor{enumerate subitem}{fg=PHSgreen}
+
+\setbeamerfont{caption}{size=\footnotesize}
+
+\hypersetup{colorlinks=true,anchorcolor=PHSblue,linkcolor=PHSblue,menucolor=PHSblue}
+
+
