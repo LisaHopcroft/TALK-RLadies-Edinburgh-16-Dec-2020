@@ -73,14 +73,15 @@ dest
 
 #  API access
 
+![](fig/API-diagram.png){height=60%}
+
 - A way to interact with services online
 
   1. Construct your QUERY
   2. Submit the QUERY to the API
   3. Parse the RESPONSE from the API
 
-- In order to access the API, you may need to be issued
-  a KEY
+- To access the API, you may be issued a KEY
 
 
 # Bulk Journey Planner API
